@@ -1,5 +1,5 @@
-!wget https://downloads.apache.org/spark/spark-3.1.2/spark-3.1.2-bin-hadoop2.7.tgz
-!tar -xvf spark-3.1.2-bin-hadoop2.7.tgz
+!wget https://dlcdn.apache.org/spark/spark-3.1.2/spark-3.1.2-bin-hadoop3.2.tgz
+!tar -xvf spark-3.1.2-bin-hadoop3.2.tgz
 import os
 os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-11-openjdk-amd64"
 os.environ["SPARK_HOME"] = "/content/spark-3.1.2-bin-hadoop3.2"
